@@ -69,6 +69,11 @@
 .add-form button {
   letter-spacing: 3px;
 }
+
+textarea {
+  min-height: 135px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
