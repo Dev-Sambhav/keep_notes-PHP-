@@ -18,18 +18,15 @@ mysqli_free_result($data);
 // close the connection
 mysqli_close($connection);
 
-// get only first 20 words
-
+// get only few words from given string.
 function limit_text($text, $limit) {
     if (str_word_count($text, 0) > $limit) {
-        $words = str_word_count($text, 2);
-        $pos   = array_keys($words);
-        $text  = substr($text, 0, $pos[$limit]) . '...';
+        $words = str_word_count($text, 2);  // this will return a array where the key is the position of the word in the string, and value is the actual word.
+        $key   = array_keys($words);  // this will return a array containing keys.
+        $text  = substr($text, 0, $key[$limit]) . '...';
     }
     return $text;
 }
-
-// <?php echo htmlspecialchars($note['description'])
 
 ?>
 
@@ -37,7 +34,7 @@ function limit_text($text, $limit) {
 <html lang="en">
 <?php include('templates/header.php') ?>
 
-<div class="container p-4 text-center mt-4">
+<div class="container home-container p-4 text-center mt-4">
     <h2 class="text-center mb-5 main-title">Notes</h2>
     <div class="row">
         <?php foreach ($notes as $note) : ?>

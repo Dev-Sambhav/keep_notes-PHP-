@@ -43,7 +43,7 @@ if(isset($_POST['delete'])){
 <!DOCTYPE html>
 <html lang="en">
 <?php include('templates/header.php') ?>
-<div class="container mt-5 mb-5">
+<div class="container details-container mt-5 mb-5">
     <div class="detail-box card-body text-center">
         <?php if($note): ?>
             <h3 class="card-title note-title text-capitalize"><?php echo htmlspecialchars($note['title']) ?></h3>

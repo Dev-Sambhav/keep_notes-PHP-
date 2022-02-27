@@ -57,9 +57,9 @@ if (isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html lang="en">
 <?php include('templates/header.php') ?>
-<section class="container form-section mt-3 p-3">
+<section class="container add-container form-section mt-3 p-3">
     <h2 class="text-center mb-3">
-        Add a Pizza
+        Add a Note
     </h2>
     <form class="add-form container" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
         <div class="form-group">

@@ -8,7 +8,7 @@
 </head>
 
 <body class="bg-light">
-    <nav class="navbar navbar-dark bg-dark p-3 pl-5 pr-5">
+    <nav class="navbar header navbar-dark bg-dark p-3 pl-5 pr-5">
         <a href="index.php"><span class="navbar-brand mb-0 h1">Keep Notes</span></a>
         <a href="add.php" class="btn btn-outline-light">Create</a>
     </nav>
