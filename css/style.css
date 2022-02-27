@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.note-title {
+  margin-bottom: 1.1em;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.detail-box {
+  padding: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-des {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  /* background-color: grey; */
+  padding: 1em;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* border-radius: 10px; */
+}
+
+.created-by {
+  text-align: end;
+  margin-right: 1.5em;
+  margin-top: 0.8em;
+}
+
+.btn-delete {
+  display: flex;
+  margin-left: 1.1em;
+}
+
+.main-title {
+  text-decoration: underline;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.ing {
+  list-style-type: none !important;
+  padding-right: 2em;
+}
+.form-section {
+  letter-spacing: 1px;
+}
+.form-section > h2 {
+  color: grey;
+}
+.add-form {
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.add-form label {
+  font-size: 1.2rem;
+}
+
+.add-form button {
+  letter-spacing: 3px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 40px; */
+}
+.footer-text {
+  text-align: center;
+  background: inherit;
+  color: grey;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
